@@ -1,0 +1,253 @@
+body
+{
+	background-color: black;
+	font-family: 'Indie Flower', cursive;
+ 	font-family: 'Josefin Slab', serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Junge', serif;
+  font-family: 'Antic Didone', serif;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto; /*dimension "automatique" de la photo (crevettes)*/
+}
+
+/* Effets */
+
+.chgt:hover{
+    opacity:0.6; 
+  }
+
+#clr{
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Junge', serif;
+  font-family: 'Antic Didone', serif;
+  font-size:12px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+
+.brdsld{
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Junge', serif;
+  font-family: 'Antic Didone', serif;
+  font-size:22px;
+}
+
+.bun{/*Les "sous pages" de la nav (menu)*/
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Junge', serif;
+  font-family: 'Antic Didone', serif;
+  text-decoration:none;
+}
+
+
+#rectgl{/*le rectangle de la nav (menu)*/
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  border-style:solid;
+}
+
+.effet:hover{
+  color:black;
+  text-decoration: underline overline black;
+}
+
+.rectglbis:hover{
+  background-color:#BA2A0A
+}
+
+.surligner:hover{
+  text-decoration:underline;
+}
+
+.blanc{
+	color:white;
+}
+
+.effetbis:hover
+{
+	color:#BA2A0A;
+	text-decoration: underline overline #BA2A0A;
+}
+ 
+.nacn
+{
+	color:#BA2A0A;
+}
+
+
+.agrandimg:hover
+{
+  width:55%;
+  height:55%;
+}
+
+.agrandimgbis:hover
+{
+  width:85%;
+  height:85%;
+}
+
+.agrandimgtrs:hover
+{
+  width:35%;
+  height:35%;
+}
+
+.agrandimgqtr:hover
+{
+  width:65%;
+  height:65%;
+}
+
+.agrandimgcnq:hover
+{
+  width:45%;
+  height:45%;
+}
+
+.agrandimgsix:hover
+{
+  width:100%;
+  height:100%;
+}
+
+
+/* Partie événements */
+
+.evenements
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Partie concernant la page repas / nourriture */
+
+#sommaire a
+{
+	padding: 10px;
+	display: block;
+}
+
+#sommaire a:hover
+{
+	background-color: #BA2A0A;
+  text-decoration: underline overline white;
+  color: white;
+}
+
+
+.prix
+{
+	color:green;
+	font-weight: bold;
+}
+
+
+
+/* Partie Gratuite */
+
+.free_pas_ancre
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 5px #BA2A0A groove;
+}
+
+.free_liste
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.gratuit
+{
+	width: 200px;
+	text-align: center;
+	align-items: center;
+}
+
+
+/* Partie concernant le menu*/
+
+.menu_jours_pas_ancre, #menu_jours:not(a)
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Merienda', cursive;
+  font-family: 'Junge', serif;
+  font-family: 'Antic Didone', serif;
+  color:white;
+}
+
+.lundi .mardi .mercredi .jeudi .vendredi
+{
+	width: 245px;
+	margin:5px;
+}
+
+.nourriture img
+{
+	width: 175px;
+	height: 125px;
+}
+
+
+/* Partie Boissons */
+
+.une_boisson
+{
+	width:250px;
+	height:200px;
+	text-align: center;
+}
+
+
+
+.boissons_gazeuses_liste, .boissons_plates_liste, .boissons_alcoolisees_liste
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* Partie Contact */
+
+
+.Les_créateurs
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.carte
+{
+  display: flex;
+  flex-wrap: wrap;
+}
