@@ -1,7 +1,7 @@
-# Projet mini-site web
+# Mini website project
 
-Projet réalisé dans le cadre de la CPI2 de l'ISTY.
+Project carried out as part of the CPI2 program at ISTY (UVSQ Paris-Saclay).
 
-Site web simulant le menu et les offres que proposerait une cantine.
+Web site simulating the menu and meals of a canteen.
 
-Pour voir le résultat, il suffit de télécharger les fichiers et d'ouvrir `index.html` dans un navigateur.
+To see the result, simply download the files and open `index.html` in a browser.
